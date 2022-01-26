@@ -1,3 +1,10 @@
+Professionnels et Expats Indonésiens en France (PEIF) est une communauté ouverte dédiée aux talents indonésiens vivant en France. Elle a pour vocation de favoriser l'entraide, les partages d'informations et d'expériences entre eux. Il s'adresse aux cadres, _executives_, chercheurs, indépendants et salariés souhaitant se développer dans leurs projets personnels et professionnels.
+🇫🇷 🇮🇩
+
+# Contact
+lespeif@gmail.com
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/lespeif/lespeif.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
