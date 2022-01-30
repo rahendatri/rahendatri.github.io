@@ -2,6 +2,7 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
 
 {% seo %}
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -9,7 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="/assets/css/styles.css">
     {% include head-custom.html %}
   </head>
   <body>
@@ -28,6 +31,7 @@
     </header>
 
     <main id="content" class="main-content" role="main">
+      {% include navigation.html %}
       {{ content }}
 
       <footer class="site-footer">

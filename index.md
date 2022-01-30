@@ -1,4 +1,5 @@
 ---
+# Front matter "layout" is used to apply html template theme to this page
 layout: default
 title: "Accueil PEIF"
 ---

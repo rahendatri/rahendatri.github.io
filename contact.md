@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: default
 title: "Nous contacter"
-permalink: /contact/
+permalink: /contact
 ---
 
 

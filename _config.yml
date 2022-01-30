@@ -21,13 +21,7 @@
 title: PEIF
 email: lespeif@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Professionnels et Expats Indonésiens en France (PEIF) 
-  est une communauté ouverte dédiée aux talents indonésiens vivant en France. 
-  Elle a pour vocation de favoriser l'entraide, 
-  les partages d'informations et d'expériences entre eux. 
-  Il s'adresse aux cadres, executives, chercheurs, indépendants 
-  et salariés souhaitant se développer dans leurs projets personnels 
-  et professionnels.
+  Professionnels et Expats Indonésiens en France (PEIF)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lespeif.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
@@ -40,6 +34,29 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme # add this line to the plugins list if you already have one
   # - jekyll-include-cache 
+
+
+collections:
+  # This is a collection. It is used to regroup Posts according to specific rules (e.g. per author)
+  authors:
+    output: true
+
+# Below are default values for each type of Page in Jekyll. path: "" means root folder.
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

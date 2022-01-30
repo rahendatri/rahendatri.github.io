@@ -1,0 +1,8 @@
+<nav>
+  {% for item in site.data.navigation %}
+    <!-- Here CSS class is used to prevent incline CSS (which is not recommended) -->
+    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+      {{ item.name }}
+    </a>
+  {% endfor %}
+</nav>
