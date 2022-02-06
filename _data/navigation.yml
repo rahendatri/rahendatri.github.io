@@ -6,5 +6,5 @@
   link: /contact
 - name: Publications
   link: /blog
-- name: Contributeurs
-  link: /staff
+# - name: Contributeurs
+#   link: /staff

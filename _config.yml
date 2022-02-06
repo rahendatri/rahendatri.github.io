@@ -18,10 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: PEIF
+title:
+  fr: PEIF
+  id: PEIP
 email: lespeif@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Professionnels et Expats Indonésiens en France (PEIF)
+description: 
+  fr: Professionnels et Expats Indonésiens en France (PEIF)
+  id: Profesional dan Ekspat Indonesia di Perancis (PEIP)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lespeif.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
@@ -41,7 +44,7 @@ collections:
   authors:
     output: true
 
-# Below are default values for each type of Page in Jekyll. path: "" means root folder.
+# Below are default layout values for each type of Page in Jekyll. path: "" means root folder.
 defaults:
   - scope:
       path: ""
