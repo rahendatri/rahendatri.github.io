@@ -1,0 +1,22 @@
+collections:
+  authors:
+    output: true
+
+defaults:
+  # For authors collection, use author layout
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  # For posts "collection", use post layout
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  # By default, use default layout
+  - scope:
+      path: ""
+    values:
+      layout: "default"
