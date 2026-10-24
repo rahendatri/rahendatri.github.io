@@ -6,5 +6,5 @@ source "https://rubygems.org"
 gem "jekyll"
 
 group :jekyll_plugins do
-  gem "jekyll-geo-kit", github: "rahendatri/jekyll-geo-kit"
+  gem "jekyll-geo-kit"
 end
